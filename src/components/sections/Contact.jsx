@@ -1,14 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
-import {
-  FaEnvelope,
-  FaPhoneAlt,
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
-import { FaLeetcode } from "react-icons/fa6"; // LeetCode icon from FontAwesome 6
+import { FaEnvelope, FaPhoneAlt, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -69,7 +62,6 @@ export const Contact = () => {
               </div>
             </div>
 
-            {/* Social Icons */}
             <div className="flex gap-4 pt-4">
               <a
                 href="https://github.com/Akashgautam25"
@@ -88,7 +80,7 @@ export const Contact = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://twitter.com/yourtwitter"
+                href="#"
                 className="p-2 bg-white/5 border border-white/10 rounded hover:bg-white/10 transition"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,7 +93,11 @@ export const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLeetcode className="text-yellow-500" />
+                <img
+                  src="https://leetcode.com/static/images/LeetCode_logo_rvs.png"
+                  alt="LeetCode"
+                  className="w-5 h-5 invert"
+                />
               </a>
             </div>
           </div>
