@@ -72,7 +72,7 @@ export const Projects = () => {
                 A real-time currency converter that supports multiple currencies, exchange rate APIs, and intuitive user interface.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "REST API", "Tailwind"].map((tech) => (
+                {["React", "React", "Javascript"].map((tech) => (
                   <span
                     key={tech}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow transition"
@@ -98,7 +98,7 @@ export const Projects = () => {
                 A sleek and minimal To-Do app with localStorage, task filters, and CRUD functionality.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "JavaScript", "Tailwind"].map((tech) => (
+                {["React", "JavaScript"].map((tech) => (
                   <span
                     key={tech}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow transition"
