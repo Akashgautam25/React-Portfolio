@@ -1,7 +1,14 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
-import { FaEnvelope, FaPhoneAlt, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaPhoneAlt,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
+import { FaLeetcode } from "react-icons/fa6"; // LeetCode icon from FontAwesome 6
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -62,24 +69,39 @@ export const Contact = () => {
               </div>
             </div>
 
+            {/* Social Icons */}
             <div className="flex gap-4 pt-4">
               <a
-                href="#"
+                href="https://github.com/Akashgautam25"
                 className="p-2 bg-white/5 border border-white/10 rounded hover:bg-white/10 transition"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaGithub />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/akash-gautam-42ba31307/"
                 className="p-2 bg-white/5 border border-white/10 rounded hover:bg-white/10 transition"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaLinkedin />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/yourtwitter"
                 className="p-2 bg-white/5 border border-white/10 rounded hover:bg-white/10 transition"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaTwitter />
+              </a>
+              <a
+                href="https://leetcode.com/u/Akash_gautam25/"
+                className="p-2 bg-white/5 border border-white/10 rounded hover:bg-white/10 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLeetcode className="text-yellow-500" />
               </a>
             </div>
           </div>
