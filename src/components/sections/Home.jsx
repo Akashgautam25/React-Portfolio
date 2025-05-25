@@ -8,9 +8,9 @@ import profileImage from "../../assets/profile.png";
 export const Home = () => {
   return (
     <section
-      id="home"
-      className="min-h-screen bg-black relative overflow-hidden"
-    >
+  id="home"
+  className="min-h-screen bg-black relative overflow-hidden pt-20"
+>
       <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between min-h-screen">
         {/* Left Content */}
         <RevealOnScroll>
