@@ -40,7 +40,7 @@ export const Contact = () => {
     <>
       <section
         id="contact"
-        className="bg-black text-white px-4 pt-4 pb-8 flex justify-center items-center"
+        className="bg-black text-white px-4 pt-4 pb-16 flex justify-center items-center"
       >
         <RevealOnScroll>
           <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
