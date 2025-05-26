@@ -8,7 +8,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-4xl w-full mx-auto">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r text-blue-500 bg-clip-text  text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r text-blue-500 bg-clip-text text-center">
             About Me
           </h2>
 
@@ -32,14 +32,18 @@ export const About = () => {
               <li>
                 <strong>Rishihood University</strong> <br />
                 B.Tech in Computer Science & Artificial Intelligence<br />
-                <span className="text-sm text-gray-400">August 2023 - Till Now</span>
+                <span className="text-sm ">2024 - 2028</span>
                 <p className="mt-1">
                   Mastering skills in DSA, Web Development, and other new-age technologies.
                 </p>
               </li>
               <li>
-                <strong>10th (2022) &amp; 12th (2024)</strong> <br />
-                Shriji Baba Saraswati Vidya Mandir, Mathura
+                <strong>Class XII (2024)</strong><br />
+                B.G.B Braj Education Academy, Mathura
+              </li>
+              <li>
+                <strong>Class X (2022)</strong><br />
+                Shri Ji Baba Saraswati Vidya Mandir, Mathura
               </li>
             </ul>
           </div>
